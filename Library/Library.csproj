@@ -37,7 +37,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ByteBuffer.cs" />
+    <Compile Include="Commands\CallCommand.cs" />
+    <Compile Include="Commands\CommandFactory.cs" />
+    <Compile Include="Commands\CompositeCommand.cs" />
+    <Compile Include="Commands\DiscoveryCommand.cs" />
     <Compile Include="Commands\ICommand.cs" />
+    <Compile Include="Commands\ResponseCommand.cs" />
     <Compile Include="IClient.cs" />
     <Compile Include="NDS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
