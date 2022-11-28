@@ -1,0 +1,6 @@
+# VisualStudio cache and settings
+.vs/
+
+# Compilation results
+bin/
+obj/
